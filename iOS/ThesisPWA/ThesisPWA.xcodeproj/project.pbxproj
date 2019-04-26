@@ -14,7 +14,8 @@
 		867D0A4E22730C82008570DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867D0A4C22730C82008570DE /* LaunchScreen.storyboard */; };
 		867D0A5922730C82008570DE /* ThesisPWATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A5822730C82008570DE /* ThesisPWATests.swift */; };
 		867D0A6422730C82008570DE /* ThesisPWAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A6322730C82008570DE /* ThesisPWAUITests.swift */; };
-		867D0A7222730D22008570DE /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A7122730D22008570DE /* ImageDownloader.swift */; };
+		867D0A7222730D22008570DE /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A7122730D22008570DE /* ImageFetcher.swift */; };
+		867D0A7422731C6E008570DE /* ImageAlter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A7322731C6E008570DE /* ImageAlter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		867D0A5F22730C82008570DE /* ThesisPWAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThesisPWAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D0A6322730C82008570DE /* ThesisPWAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisPWAUITests.swift; sourceTree = "<group>"; };
 		867D0A6522730C82008570DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		867D0A7122730D22008570DE /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		867D0A7122730D22008570DE /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		867D0A7322731C6E008570DE /* ImageAlter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAlter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,8 @@
 				867D0A4A22730C82008570DE /* Assets.xcassets */,
 				867D0A4C22730C82008570DE /* LaunchScreen.storyboard */,
 				867D0A4F22730C82008570DE /* Info.plist */,
-				867D0A7122730D22008570DE /* ImageDownloader.swift */,
+				867D0A7122730D22008570DE /* ImageFetcher.swift */,
+				867D0A7322731C6E008570DE /* ImageAlter.swift */,
 			);
 			path = ThesisPWA;
 			sourceTree = "<group>";
@@ -260,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				867D0A4622730C81008570DE /* ViewController.swift in Sources */,
-				867D0A7222730D22008570DE /* ImageDownloader.swift in Sources */,
+				867D0A7222730D22008570DE /* ImageFetcher.swift in Sources */,
+				867D0A7422731C6E008570DE /* ImageAlter.swift in Sources */,
 				867D0A4422730C81008570DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
