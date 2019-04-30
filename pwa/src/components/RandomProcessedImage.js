@@ -20,7 +20,6 @@ class RandomProcessedImage extends PolymerElement{
 
     startTimer(){
         setInterval(_=>{
-            console.log("Fetching fresh image");
             this._fetchImage();
         }, refreshFrequency);
     }

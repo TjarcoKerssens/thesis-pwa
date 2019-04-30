@@ -9,8 +9,8 @@
  */
 
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
-import './components/RandomImage';
 import './components/RandomProcessedImage'
+import './components/Location'
 import './shared-styles.js';
 
 class MainView extends PolymerElement {
@@ -27,6 +27,7 @@ class MainView extends PolymerElement {
         <h1>Random Image with alterations</h1>
         <p>Display a random image</p>
         <random-processed-image></random-processed-image>
+        <geo-location></geo-location>
       </div>
     `;
   }
