@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android PWA Thesis</string>
+    <string name="location">Longitude: %1$f Latitude: %2$f</string>
 </resources>
