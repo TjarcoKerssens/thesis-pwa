@@ -9,27 +9,28 @@
  */
 
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
+import './components/RandomProcessedImage'
+import './components/Location'
 import './shared-styles.js';
 
-class MyView3 extends PolymerElement {
+class MainView extends PolymerElement {
   static get template() {
     return html`
       <style include="shared-styles">
         :host {
           display: block;
-
           padding: 10px;
         }
       </style>
 
       <div class="card">
-        <div class="circle">3</div>
-        <h1>View Three</h1>
-        <p>Modus commodo minimum eum te, vero utinam assueverit per eu.</p>
-        <p>Ea duis bonorum nec, falli paulo aliquid ei eum.Has at minim mucius aliquam, est id tempor laoreet.Pro saepe pertinax ei, ad pri animal labores suscipiantur.</p>
+        <h1>Random Image with alterations</h1>
+        <p>Display a random image</p>
+        <random-processed-image></random-processed-image>
+        <geo-location></geo-location>
       </div>
     `;
   }
 }
 
-window.customElements.define('my-view3', MyView3);
+window.customElements.define('main-view', MainView);
