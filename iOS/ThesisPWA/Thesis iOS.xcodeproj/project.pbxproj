@@ -37,17 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		867D0A4022730C81008570DE /* ThesisPWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThesisPWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867D0A4022730C81008570DE /* Thesis iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thesis iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D0A4322730C81008570DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		867D0A4522730C81008570DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		867D0A4822730C81008570DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		867D0A4A22730C82008570DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867D0A4D22730C82008570DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		867D0A4F22730C82008570DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		867D0A5422730C82008570DE /* ThesisPWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThesisPWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867D0A5422730C82008570DE /* Thesis iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thesis iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D0A5822730C82008570DE /* ThesisPWATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisPWATests.swift; sourceTree = "<group>"; };
 		867D0A5A22730C82008570DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		867D0A5F22730C82008570DE /* ThesisPWAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThesisPWAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867D0A5F22730C82008570DE /* Thesis iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thesis iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D0A6322730C82008570DE /* ThesisPWAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisPWAUITests.swift; sourceTree = "<group>"; };
 		867D0A6522730C82008570DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		867D0A7122730D22008570DE /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		867D0A4122730C81008570DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				867D0A4022730C81008570DE /* ThesisPWA.app */,
-				867D0A5422730C82008570DE /* ThesisPWATests.xctest */,
-				867D0A5F22730C82008570DE /* ThesisPWAUITests.xctest */,
+				867D0A4022730C81008570DE /* Thesis iOS.app */,
+				867D0A5422730C82008570DE /* Thesis iOSTests.xctest */,
+				867D0A5F22730C82008570DE /* Thesis iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		867D0A3F22730C81008570DE /* ThesisPWA */ = {
+		867D0A3F22730C81008570DE /* Thesis iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 867D0A6822730C82008570DE /* Build configuration list for PBXNativeTarget "ThesisPWA" */;
+			buildConfigurationList = 867D0A6822730C82008570DE /* Build configuration list for PBXNativeTarget "Thesis iOS" */;
 			buildPhases = (
 				867D0A3C22730C81008570DE /* Sources */,
 				867D0A3D22730C81008570DE /* Frameworks */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = ThesisPWA;
+			name = "Thesis iOS";
 			productName = ThesisPWA;
-			productReference = 867D0A4022730C81008570DE /* ThesisPWA.app */;
+			productReference = 867D0A4022730C81008570DE /* Thesis iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		867D0A5322730C82008570DE /* ThesisPWATests */ = {
+		867D0A5322730C82008570DE /* Thesis iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 867D0A6B22730C82008570DE /* Build configuration list for PBXNativeTarget "ThesisPWATests" */;
+			buildConfigurationList = 867D0A6B22730C82008570DE /* Build configuration list for PBXNativeTarget "Thesis iOSTests" */;
 			buildPhases = (
 				867D0A5022730C82008570DE /* Sources */,
 				867D0A5122730C82008570DE /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				867D0A5622730C82008570DE /* PBXTargetDependency */,
 			);
-			name = ThesisPWATests;
+			name = "Thesis iOSTests";
 			productName = ThesisPWATests;
-			productReference = 867D0A5422730C82008570DE /* ThesisPWATests.xctest */;
+			productReference = 867D0A5422730C82008570DE /* Thesis iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		867D0A5E22730C82008570DE /* ThesisPWAUITests */ = {
+		867D0A5E22730C82008570DE /* Thesis iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 867D0A6E22730C82008570DE /* Build configuration list for PBXNativeTarget "ThesisPWAUITests" */;
+			buildConfigurationList = 867D0A6E22730C82008570DE /* Build configuration list for PBXNativeTarget "Thesis iOSUITests" */;
 			buildPhases = (
 				867D0A5B22730C82008570DE /* Sources */,
 				867D0A5C22730C82008570DE /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				867D0A6122730C82008570DE /* PBXTargetDependency */,
 			);
-			name = ThesisPWAUITests;
+			name = "Thesis iOSUITests";
 			productName = ThesisPWAUITests;
-			productReference = 867D0A5F22730C82008570DE /* ThesisPWAUITests.xctest */;
+			productReference = 867D0A5F22730C82008570DE /* Thesis iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 867D0A3B22730C80008570DE /* Build configuration list for PBXProject "ThesisPWA" */;
+			buildConfigurationList = 867D0A3B22730C80008570DE /* Build configuration list for PBXProject "Thesis iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				867D0A3F22730C81008570DE /* ThesisPWA */,
-				867D0A5322730C82008570DE /* ThesisPWATests */,
-				867D0A5E22730C82008570DE /* ThesisPWAUITests */,
+				867D0A3F22730C81008570DE /* Thesis iOS */,
+				867D0A5322730C82008570DE /* Thesis iOSTests */,
+				867D0A5E22730C82008570DE /* Thesis iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		867D0A5622730C82008570DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 867D0A3F22730C81008570DE /* ThesisPWA */;
+			target = 867D0A3F22730C81008570DE /* Thesis iOS */;
 			targetProxy = 867D0A5522730C82008570DE /* PBXContainerItemProxy */;
 		};
 		867D0A6122730C82008570DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 867D0A3F22730C81008570DE /* ThesisPWA */;
+			target = 867D0A3F22730C81008570DE /* Thesis iOS */;
 			targetProxy = 867D0A6022730C82008570DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThesisPWA.app/ThesisPWA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thesis iOS.app/Thesis iOS";
 			};
 			name = Debug;
 		};
@@ -514,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThesisPWA.app/ThesisPWA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thesis iOS.app/Thesis iOS";
 			};
 			name = Release;
 		};
@@ -561,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		867D0A3B22730C80008570DE /* Build configuration list for PBXProject "ThesisPWA" */ = {
+		867D0A3B22730C80008570DE /* Build configuration list for PBXProject "Thesis iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				867D0A6622730C82008570DE /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		867D0A6822730C82008570DE /* Build configuration list for PBXNativeTarget "ThesisPWA" */ = {
+		867D0A6822730C82008570DE /* Build configuration list for PBXNativeTarget "Thesis iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				867D0A6922730C82008570DE /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		867D0A6B22730C82008570DE /* Build configuration list for PBXNativeTarget "ThesisPWATests" */ = {
+		867D0A6B22730C82008570DE /* Build configuration list for PBXNativeTarget "Thesis iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				867D0A6C22730C82008570DE /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		867D0A6E22730C82008570DE /* Build configuration list for PBXNativeTarget "ThesisPWAUITests" */ = {
+		867D0A6E22730C82008570DE /* Build configuration list for PBXNativeTarget "Thesis iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				867D0A6F22730C82008570DE /* Debug */,

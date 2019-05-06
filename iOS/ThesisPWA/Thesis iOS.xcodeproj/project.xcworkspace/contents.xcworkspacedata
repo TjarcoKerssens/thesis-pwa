@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ThesisPWA.xcodeproj">
+      location = "self:/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/Thesis iOS.xcodeproj">
    </FileRef>
 </Workspace>
