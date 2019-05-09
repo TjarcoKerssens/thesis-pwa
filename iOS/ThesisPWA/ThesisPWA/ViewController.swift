@@ -22,6 +22,14 @@ class ViewController: UIViewController, LocationDelegate {
         imageFetcher.addAlteredImageView(imageView: alteredImageView)
         imageFetcher.startFetchingImage(into: randomImageView)
         locationWatcher.startWatching(delegate: self)
+        
+        logPostMainTimeAndExit()
+    }
+    
+    private func logPostMainTimeAndExit(){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        print("Calculated post-main time: \(String(format: "%.2f", appDelegate.getCurrentMillis() - appDelegate.timing))")
+        exit(0)
     }
     
     func locationUpdated(longitude: Double, latitude: Double) {

@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationDelegate"
+- "LocationWatcher"
+provides-nominal:
+- "10Thesis_iOS16LocationDelegateP"
+- "10Thesis_iOS15LocationWatcherC"
+provides-member:
+- ["10Thesis_iOS16LocationDelegateP", ""]
+- ["10Thesis_iOS15LocationWatcherC", ""]
+provides-dynamic-lookup:
+- "locationManager"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CLLocation"
+- !private "CLLocationCoordinate2D"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- "Double"
+- "LocationDelegate"
+- "LocationWatcher"
+- "NSObject"
+- !private "kCLLocationAccuracyBest"
+depends-member:
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So22CLLocationCoordinate2DV", "latitude"]
+- !private ["So22CLLocationCoordinate2DV", "longitude"]
+- !private ["So17CLLocationManagerC", "delegate"]
+- !private ["So17CLLocationManagerC", "desiredAccuracy"]
+- ["So17CLLocationManagerC", "init"]
+- !private ["So17CLLocationManagerC", "location"]
+- !private ["So17CLLocationManagerC", "locationServicesEnabled"]
+- !private ["So17CLLocationManagerC", "requestAlwaysAuthorization"]
+- !private ["So17CLLocationManagerC", "startUpdatingLocation"]
+- ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- ["So25CLLocationManagerDelegateP", ""]
+- !private ["So25CLLocationManagerDelegateP", "delegate"]
+- !private ["So25CLLocationManagerDelegateP", "kCLLocationAccuracyBest"]
+- ["So25CLLocationManagerDelegateP", "locationManager"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidPauseLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidResumeLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerShouldDisplayHeadingCalibration"]
+- ["s7CVarArgP", "CLLocationManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "desiredAccuracy"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCLLocationAccuracyBest"]
+- !private ["s7CVarArgP", "location"]
+- ["s7CVarArgP", "locationManager"]
+- ["s7CVarArgP", "locationManagerDidPauseLocationUpdates"]
+- ["s7CVarArgP", "locationManagerDidResumeLocationUpdates"]
+- ["s7CVarArgP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s7CVarArgP", "locationServicesEnabled"]
+- !private ["s7CVarArgP", "requestAlwaysAuthorization"]
+- !private ["s7CVarArgP", "startUpdatingLocation"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "desiredAccuracy"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationAccuracyBest"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- ["s28CustomDebugStringConvertibleP", "locationManager"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s28CustomDebugStringConvertibleP", "locationServicesEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAlwaysAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingLocation"]
+- ["s23CustomStringConvertibleP", "CLLocationManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "desiredAccuracy"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationAccuracyBest"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- ["s23CustomStringConvertibleP", "locationManager"]
+- ["s23CustomStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s23CustomStringConvertibleP", "locationServicesEnabled"]
+- !private ["s23CustomStringConvertibleP", "requestAlwaysAuthorization"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingLocation"]
+- ["SQ", "CLLocationManager"]
+- ["SQ", ""]
+- !private ["SQ", "coordinate"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "desiredAccuracy"]
+- ["SQ", "init"]
+- !private ["SQ", "kCLLocationAccuracyBest"]
+- !private ["SQ", "location"]
+- ["SQ", "locationManager"]
+- ["SQ", "locationManagerDidPauseLocationUpdates"]
+- ["SQ", "locationManagerDidResumeLocationUpdates"]
+- ["SQ", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["SQ", "locationServicesEnabled"]
+- !private ["SQ", "requestAlwaysAuthorization"]
+- !private ["SQ", "startUpdatingLocation"]
+- ["SH", "CLLocationManager"]
+- ["SH", ""]
+- !private ["SH", "coordinate"]
+- !private ["SH", "delegate"]
+- !private ["SH", "desiredAccuracy"]
+- ["SH", "init"]
+- !private ["SH", "kCLLocationAccuracyBest"]
+- !private ["SH", "location"]
+- ["SH", "locationManager"]
+- ["SH", "locationManagerDidPauseLocationUpdates"]
+- ["SH", "locationManagerDidResumeLocationUpdates"]
+- ["SH", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["SH", "locationServicesEnabled"]
+- !private ["SH", "requestAlwaysAuthorization"]
+- !private ["SH", "startUpdatingLocation"]
+- ["10Thesis_iOS16LocationDelegateP", "Double"]
+- ["10Thesis_iOS16LocationDelegateP", "locationUpdated"]
+- ["10Thesis_iOS15LocationWatcherC", "CLLocation"]
+- !private ["10Thesis_iOS15LocationWatcherC", "CLLocationCoordinate2D"]
+- ["10Thesis_iOS15LocationWatcherC", "CLLocationManager"]
+- ["10Thesis_iOS15LocationWatcherC", "LocationDelegate"]
+- ["10Thesis_iOS15LocationWatcherC", "deinit"]
+- ["10Thesis_iOS15LocationWatcherC", "delegate"]
+- ["10Thesis_iOS15LocationWatcherC", "init"]
+- !private ["10Thesis_iOS15LocationWatcherC", "kCLLocationAccuracyBest"]
+- ["10Thesis_iOS15LocationWatcherC", "locationManager"]
+- ["10Thesis_iOS15LocationWatcherC", "locationManagerDidPauseLocationUpdates"]
+- ["10Thesis_iOS15LocationWatcherC", "locationManagerDidResumeLocationUpdates"]
+- ["10Thesis_iOS15LocationWatcherC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["10Thesis_iOS15LocationWatcherC", "startWatching"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So9NSCopyingP", "coordinate"]
+- ["So8NSObjectC", "CLLocation"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2D"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "LocationDelegate"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "desiredAccuracy"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCLLocationAccuracyBest"]
+- !private ["So8NSObjectC", "location"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectC", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectC", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectC", "locationServicesEnabled"]
+- !private ["So8NSObjectC", "requestAlwaysAuthorization"]
+- !private ["So8NSObjectC", "startUpdatingLocation"]
+- ["So8NSObjectC", "startWatching"]
+- ["So8NSObjectP", "CLLocationManager"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "coordinate"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "desiredAccuracy"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "kCLLocationAccuracyBest"]
+- !private ["So8NSObjectP", "location"]
+- ["So8NSObjectP", "locationManager"]
+- ["So8NSObjectP", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectP", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectP", "locationServicesEnabled"]
+- !private ["So8NSObjectP", "requestAlwaysAuthorization"]
+- !private ["So8NSObjectP", "startUpdatingLocation"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desiredAccuracy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationAccuracyBest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidPauseLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidResumeLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationServicesEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAlwaysAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingLocation"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+depends-nominal:
+- !private "So10CLLocationC"
+- !private "So22CLLocationCoordinate2DV"
+- "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "10Thesis_iOS16LocationDelegateP"
+- "10Thesis_iOS15LocationWatcherC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f5c9e3289bd667f514783477201c2b67"
