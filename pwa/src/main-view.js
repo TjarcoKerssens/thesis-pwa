@@ -21,6 +21,35 @@ class MainView extends PolymerElement {
       </div>
     `;
   }
+
+  ready() {
+    super.ready();
+    showPaintTimings();
+    showDOMTimings();
+  }
+  
+}
+
+function showPaintTimings() {
+  if (window.performance) {
+    let performance = window.performance;
+    let performanceEntries = performance.getEntriesByType('paint');
+    performanceEntries.forEach( (performanceEntry, i, entries) => {
+      console.log(performanceEntry);
+      console.log("The time to " + performanceEntry.name + " was " + performanceEntry.startTime  + " milliseconds.");
+    });
+  } else {
+    console.log('Performance timing isn\'t supported.');
+  }  
+}
+
+function showDOMTimings(){
+  var perfData = window.performance.timing; 
+  var pageLoadTime = perfData.domContentLoadedEventEnd - perfData.loadEventStart;
+  console.log("Page Load Time: " + pageLoadTime);
+  var renderTime = perfData.domComplete - perfData.domLoading;
+  console.log("DOM Render Time: " + renderTime)
+  console.log(perfData);
 }
 
 window.customElements.define('main-view', MainView);
