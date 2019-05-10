@@ -22,7 +22,9 @@ class ViewController: UIViewController, LocationDelegate {
         imageFetcher.addAlteredImageView(imageView: alteredImageView)
         imageFetcher.startFetchingImage(into: randomImageView)
         locationWatcher.startWatching(delegate: self)
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         logPostMainTimeAndExit()
     }
     
