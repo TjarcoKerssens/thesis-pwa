@@ -17,6 +17,7 @@
 		867D0A7222730D22008570DE /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A7122730D22008570DE /* ImageFetcher.swift */; };
 		867D0A7422731C6E008570DE /* ImageAlter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D0A7322731C6E008570DE /* ImageAlter.swift */; };
 		8694365022785090000F5A5B /* LocationWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8694364F22785090000F5A5B /* LocationWatcher.swift */; };
+		86CF4FFA228ABF8100E45923 /* PowerProfiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CF4FF9228ABF8100E45923 /* PowerProfiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		867D0A7122730D22008570DE /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		867D0A7322731C6E008570DE /* ImageAlter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAlter.swift; sourceTree = "<group>"; };
 		8694364F22785090000F5A5B /* LocationWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWatcher.swift; sourceTree = "<group>"; };
+		86CF4FF9228ABF8100E45923 /* PowerProfiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerProfiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				867D0A7122730D22008570DE /* ImageFetcher.swift */,
 				867D0A7322731C6E008570DE /* ImageAlter.swift */,
 				8694364F22785090000F5A5B /* LocationWatcher.swift */,
+				86CF4FF9228ABF8100E45923 /* PowerProfiler.swift */,
 			);
 			path = ThesisPWA;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				8694365022785090000F5A5B /* LocationWatcher.swift in Sources */,
 				867D0A4622730C81008570DE /* ViewController.swift in Sources */,
+				86CF4FFA228ABF8100E45923 /* PowerProfiler.swift in Sources */,
 				867D0A7222730D22008570DE /* ImageFetcher.swift in Sources */,
 				867D0A7422731C6E008570DE /* ImageAlter.swift in Sources */,
 				867D0A4422730C81008570DE /* AppDelegate.swift in Sources */,

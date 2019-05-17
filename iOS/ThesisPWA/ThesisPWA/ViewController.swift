@@ -25,7 +25,7 @@ class ViewController: UIViewController, LocationDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        logPostMainTimeAndExit()
+//        logPostMainTimeAndExit()
     }
     
     private func logPostMainTimeAndExit(){
