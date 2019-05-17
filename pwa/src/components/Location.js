@@ -3,7 +3,13 @@ import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 class Location extends PolymerElement{
     static get template (){
         return html`
-            <h2>Current location</h2>
+            <style>
+                h2{
+                    font-size: 1em;
+                    margin-bottom: 0;
+                }
+            </style>
+            <h2>Current location:</h2>
             <span>Longitude: [[longitude]]</span>
             <span>Latitude: [[latitude]]</span>
         `;

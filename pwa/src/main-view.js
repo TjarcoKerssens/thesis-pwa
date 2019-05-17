@@ -13,12 +13,10 @@ class MainView extends PolymerElement {
         }
       </style>
 
-      <div class="card">
         <h1>Random Image with alterations</h1>
         <p>Display a random image</p>
         <random-processed-image></random-processed-image>
         <geo-location></geo-location>
-      </div>
     `;
   }
 
