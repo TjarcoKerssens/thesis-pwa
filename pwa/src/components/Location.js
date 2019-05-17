@@ -9,7 +9,7 @@ class Location extends PolymerElement{
                     margin-bottom: 0;
                 }
             </style>
-            <h2>Current location</h2>
+            <h2>Current location:</h2>
             <span>Longitude: [[longitude]]</span>
             <span>Latitude: [[latitude]]</span>
         `;

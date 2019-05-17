@@ -1,13 +1,3 @@
-/**
- * @license
- * Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
- * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
- * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
- * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
- * Code distributed by Google as part of the polymer project is also
- * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
- */
-
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import './components/RandomProcessedImage'
 import './components/Location'
@@ -23,12 +13,41 @@ class MainView extends PolymerElement {
         }
       </style>
 
-      <h1>Random Image with alterations</h1>
-      <p>Display a random image</p>
-      <random-processed-image></random-processed-image>
-      <geo-location></geo-location>
+        <h1>Random Image with alterations</h1>
+        <p>Display a random image</p>
+        <random-processed-image></random-processed-image>
+        <geo-location></geo-location>
     `;
   }
+
+  ready() {
+    super.ready();
+    showPaintTimings();
+    showDOMTimings();
+  }
+  
+}
+
+function showPaintTimings() {
+  if (window.performance) {
+    let performance = window.performance;
+    let performanceEntries = performance.getEntriesByType('paint');
+    performanceEntries.forEach( (performanceEntry, i, entries) => {
+      console.log(performanceEntry);
+      console.log("The time to " + performanceEntry.name + " was " + performanceEntry.startTime  + " milliseconds.");
+    });
+  } else {
+    console.log('Performance timing isn\'t supported.');
+  }  
+}
+
+function showDOMTimings(){
+  var perfData = window.performance.timing; 
+  var pageLoadTime = perfData.domContentLoadedEventEnd - perfData.loadEventStart;
+  console.log("Page Load Time: " + pageLoadTime);
+  var renderTime = perfData.domComplete - perfData.domLoading;
+  console.log("DOM Render Time: " + renderTime)
+  console.log(perfData);
 }
 
 window.customElements.define('main-view', MainView);
