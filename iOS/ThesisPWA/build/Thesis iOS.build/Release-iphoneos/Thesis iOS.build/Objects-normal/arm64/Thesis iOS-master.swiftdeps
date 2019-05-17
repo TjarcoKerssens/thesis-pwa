@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "22334500704d693268d77a4b06c34fb9"
+build_time: [1557401218, 993420000]
+inputs:
+  "/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/ThesisPWA/LocationWatcher.swift": [9223372036, 854775807]
+  "/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/ThesisPWA/ViewController.swift": [9223372036, 854775807]
+  "/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/ThesisPWA/ImageFetcher.swift": [9223372036, 854775807]
+  "/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/ThesisPWA/ImageAlter.swift": [9223372036, 854775807]
+  "/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/ThesisPWA/AppDelegate.swift": [9223372036, 854775807]

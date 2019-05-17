@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThesisPWA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Thesis_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,17 +53,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ib7-1V-H25">
-                                <rect key="frame" x="20" y="208" width="200" height="200"/>
+                                <rect key="frame" x="20" y="208" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ib7-1V-H25" secondAttribute="height" id="3Sx-zy-3eu"/>
-                                    <constraint firstAttribute="height" constant="200" id="jf2-Y5-G7r"/>
+                                    <constraint firstAttribute="height" constant="150" id="jf2-Y5-G7r"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PPo-LO-agJ">
-                                <rect key="frame" x="20" y="428" width="200" height="200"/>
+                                <rect key="frame" x="20" y="378" width="150" height="150"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude: 0 Latitude: 0" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVR-KH-mBG">
-                                <rect key="frame" x="20" y="648" width="394" height="20.5"/>
+                                <rect key="frame" x="20" y="548" width="394" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="kFf-tn-YqB"/>
                                 </constraints>

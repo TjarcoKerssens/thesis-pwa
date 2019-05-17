@@ -24,6 +24,16 @@ class ViewController: UIViewController, LocationDelegate {
         locationWatcher.startWatching(delegate: self)
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+//        logPostMainTimeAndExit()
+    }
+    
+    private func logPostMainTimeAndExit(){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        print("Calculated post-main time: \(String(format: "%.2f", appDelegate.getCurrentMillis() - appDelegate.timing))")
+        exit(0)
+    }
+    
     func locationUpdated(longitude: Double, latitude: Double) {
         locationLabel.text = "Longitude: \(longitude)\nLatitude: \(latitude)"
     }
