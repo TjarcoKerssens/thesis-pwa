@@ -3,7 +3,7 @@
 # Assumes that the application terminates
 # Output containts 
 
-RUN_TIMES=20;
+RUN_TIMES=50;
 
 # APP_PATH="/Users/tjarco/Development/thesis-pwa/iOS/ThesisPWA/build/Debug-iphoneos/Thesis iOS.app";
 APP_PATH="/Users/Tjarco/Library/Developer/Xcode/DerivedData/Thesis_iOS-cydrhkpzjvjbboeyoworqkrlfzoi/Build/Products/Debug-iphoneos/Thesis iOS.app"
