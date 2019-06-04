@@ -41,13 +41,4 @@ function showPaintTimings() {
   }  
 }
 
-function showDOMTimings(){
-  var perfData = window.performance.timing; 
-  var pageLoadTime = perfData.domContentLoadedEventEnd - perfData.loadEventStart;
-  console.log("Page Load Time: " + pageLoadTime);
-  var renderTime = perfData.domComplete - perfData.domLoading;
-  console.log("DOM Render Time: " + renderTime)
-  console.log(perfData);
-}
-
 window.customElements.define('main-view', MainView);

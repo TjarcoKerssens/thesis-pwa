@@ -19,7 +19,6 @@ boxplot(android_native_values, android_pwa_values,
         xlab="Application type", ylab="Power consumption in Watt")
 
 wtest = wilcox.test(android_native_values, android_pwa_values);
-wtest_5min = wilcox.test(android_native_values_5m, android_pwa_values_5m);
 
 test.normality <- function(){
   pwa_normality = shapiro.test(android_pwa_values)

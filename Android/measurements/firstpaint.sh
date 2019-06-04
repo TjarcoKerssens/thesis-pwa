@@ -2,7 +2,7 @@
 
 # Installs and executes the android appliction multiple times and saves the first paint time in the file paint.txt
 
-RUN_TIMES=20;
+RUN_TIMES=50;
 
 PACKAGE=com.example.androidpwathesis;
 ACTIVITY=.MainActivity;
