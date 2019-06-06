@@ -17,6 +17,8 @@ class MainView extends PolymerElement {
         <p>Display a random image</p>
         <random-processed-image></random-processed-image>
         <geo-location></geo-location>
+        <img src='images/large.jpg' width="1" height="1">
+        <img src='images/large2.jpeg' width="1" height="1">
     `;
   }
 
