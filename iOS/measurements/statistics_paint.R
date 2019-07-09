@@ -1,4 +1,4 @@
-CONFIDENCE = 0.05
+CONFIDENCE = 0.01
 
 pwa_first_paint <- read.csv("/Users/tjarco/Development/thesis-pwa/iOS/measurements/data/iOS_first_paint_pwa.csv")
 web_first_paint <- read.csv("/Users/tjarco/Development/thesis-pwa/iOS/measurements/data/iOS_first_paint_web.csv")
