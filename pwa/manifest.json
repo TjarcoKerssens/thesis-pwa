@@ -1,0 +1,21 @@
+{
+  "name": "Thesis PWA",
+  "short_name": "Thesis PWA",
+  "description": "My App description",
+  "icons": [
+    {
+      "src": "images/manifest/Android_Icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/manifest/Android_Icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6ab04c",
+  "background_color": "#6ab04c"
+}
